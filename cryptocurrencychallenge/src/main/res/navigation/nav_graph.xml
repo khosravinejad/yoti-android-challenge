@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/assetsFragment">
+
+    <fragment
+        android:id="@+id/assetsFragment"
+        android:name="com.yoti.android.cryptocurrencychallenge.ui.assets.AssetsFragment"
+        android:label="fragment_assets"
+        tools:layout="@layout/fragment_assets" />
+
+    <action
+        android:id="@+id/startDetailsFragment"
+        app:destination="@id/marketFragment">
+        <argument
+            android:name="assetId"
+            app:argType="string" />
+    </action>
+
+    <fragment
+        android:id="@+id/marketFragment"
+        android:name="com.yoti.android.cryptocurrencychallenge.ui.market.MarketFragment"
+        android:label="fragment_market"
+        tools:layout="@layout/fragment_market">
+        <argument
+            android:name="assetId"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

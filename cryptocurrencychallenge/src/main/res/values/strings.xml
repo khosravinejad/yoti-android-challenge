@@ -5,4 +5,9 @@
     <string name="rank_title">Rank</string>
     <string name="price_title">Price</string>
     <string name="date_title">Date</string>
+
+    <string name="retry">Retry</string>
+    <string name="unknown_error_message">Something\'s wrong. Please try again.</string>
+    <string name="connection_error_message">Cannot connect to server. Please check your connectivity and try again.</string>
+    <string name="cannot_update_data">Cannot update data. Please check your connection</string>
 </resources>
