@@ -1,23 +1,24 @@
 # Solution notes
 
-First of all, thanks for reviewing my solution. I, will provide some notes below to explain my
+First of all, thanks for reviewing my solution. I will provide some notes below to explain my
 solution better.
 
-- There were some other options to do as a strategy (like Feature based multi-module or layer based
-  multi-module). As the project had some existing code, I felt maybe it's a good option to show how
-  can I contribute in an existing project without minimum changes on the current code.
+- There were some other options to do as a strategy (like Feature-based multi-module or layer-based
+  multi-module). As the project had some existing code, I felt maybe it was a good option to show how
+  can I contribute to an existing project without minimum changes to the current code.
   So please consider in some areas there were better or last updated options to use, but I wanted to
-  try best possible
+  try the best possible
   solution with minimum changes in the existing code. Changes are most related to enhancement or more
-  clarity of the code. For example I could implement the UI in Jetpack Compose, but because of lots
-  of changes I didn't use it and tried to use current codes with some improvement. For example added
-  DiffUtilsCallBack to the recyclerview adapter.
-- I'll appreciate it if I can have a time to explain you quickly other solutions, benefits and
+  clarity of the code. For example, I could implement the UI in Jetpack Compose, but because of lots
+  of changes I didn't use it and tried to use current codes with some improvement. For example, added
+  DiffUtilsCallBack to the Recyclerview adapter.
+- I'll appreciate it if I can have time to explain to you quickly other solutions, benefits, and
   disadvantages of each one.
-- Due to ability of using some tools features I had to apply small upgrades in dependencies. But I
+- Due to the ability to use some tools features I had to apply small upgrades in dependencies. But I
   really tried to keep the changes small without any changes needed in the code.
-- You can find the brief solution overview below. I'll really open to explain them in details (Also
+- You can find the brief solution overview below. I'll really open to explaining them in detail (Also
   other possible solution and why I didn't use it) in the possible meeting.
+- You can see [here](https://github.com/khosravinejad/SadaPay/) another project that's quite similar to the Yoti challenge that I've worked on before. This project was done in a multi-module (based on clean architecture layers). I implemented it in TDD which is trackable in the commits history. I used the last tools and libraries in this project e.g. Jetpack Compose.
 
 # Project structure and architecture
 
